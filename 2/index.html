@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+  </head>
+
+  <body>
+    <form id="form-search">
+      <input 
+        id="search" 
+        name="search" 
+        type="text" 
+        minlength="3" 
+        autofocus
+        required
+        placeholder="Поиск..." 
+      >
+      <button id="search-button" type="submit">Поиск</button>
+    </form>
+    <div id="products">
+      <aside id="products-sidebar">
+        <ul id="sidebar-list"></ul>
+      </aside>
+      <ul id="products-list"></ul>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
